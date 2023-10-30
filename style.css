@@ -1,0 +1,42 @@
+body {
+  background-color: #14151f;
+  color: #ffffff ;
+  padding: 3%;
+}
+
+.text-muted {
+  color: #c4c4c4 !important;
+}
+
+.fw-bold {
+  color: #15d4a7;
+}
+
+.timeline {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+  }
+  
+  .timeline .timeline-item {
+    position: relative;
+  }
+  
+  .timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  
+  .timeline .timeline-item:after {
+    background-color: hsl(0, 0%, 90%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+  }
+
+  .footer > h3 {
+    color: #15d4a7 !important
+  }
